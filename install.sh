@@ -32,61 +32,9 @@ echo "step 6 start!"
 sudo cp -r ./nerdtree "$vimbundle"/
 
 #step 7 install ctag and Tagbar
-
-
-#step 7 install ctag and Tagbar
-echo "step 7 start!"
-tar zxvf 
-
-#step 7 install ctag and Tagbar
-echo "step 7 start!"
-tar zxvf 
-
-#step 7 install ctag and Tagbar
-echo "step 7 start!"
-tar zxvf 
-
-#step 7 install ctag and Tagbar
-echo "step 7 start!"
-tar zxvf 
-
-#step 7 install ctag and Tagbar
-echo "step 7 start!"
-tar zxvf
-
-#step 7 install ctag and Tagbar
-echo "step 7 start!"
-tar zxvf 
-
-#step 7 install ctag and Tagbar
-echo "step 7 start!"
-tar zxvf 
-
-#step 7 install ctag and Tagbar
-echo "step 7 start!"
-tar zxvf 
-
-#step 7 install ctag and Tagbar
-echo "step 7 start!"
-tar zxvf 
-
-#step 7 install ctag and Tagbar
-echo "step 7 start!"
-tar zxvf 
-
-#step 7 install ctag and Tagbar
-echo "step 7 start!"
-tar zxvf 
-
-#step 7 install ctag and Tagbar
-echo "step 7 start!"
-tar zxvf 
-
-#step 7 install ctags and Tagbar
 echo "step 7 start!"
 tar zxvf ctags-5.8.tar.gz ./ctags
 ./ctags/configure
 sudo make install
 sudo cp ./Tagbar ~/.vim/bundle/
-tar zxvf 
 
