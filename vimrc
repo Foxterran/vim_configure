@@ -11,4 +11,4 @@ set history=100
 set nobackup
 set fdm=marker
 set background=dark
-colorscheme solarized
+colorscheme monokai
