@@ -33,8 +33,10 @@ sudo cp -r ./nerdtree "$vimbundle"/
 
 #step 7 install ctag and Tagbar
 echo "step 7 start!"
-tar zxvf ctags-5.8.tar.gz ./ctags
-./ctags/configure
+tar zxvf ctags-5.8.tar.gz
+cd ctags-5.8
+./configure
 sudo make install
-sudo cp ./Tagbar ~/.vim/bundle/
+cd ..
+sudo cp -r ./tagbar ~/.vim/bundle/
 
