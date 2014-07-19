@@ -15,3 +15,6 @@ set nobackup
 set fdm=marker
 set background=dark
 colorscheme monokai
+
+set laststatus=2
+let g:Powerline_colorscheme='solarized256'
