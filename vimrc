@@ -1,3 +1,6 @@
+nmap <F1> :echo 'Current time is ' . strftime('%c')<CR>
+nmap <F2> :NERDTreeToggle<CR>
+nmap <F3> :TagbarToggle<CR>
 syntax on
 "文件缩进 
 filetype indent plugin on
