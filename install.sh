@@ -43,4 +43,6 @@ sudo cp -r ./tagbar ~/.vim/bundle/
 #step 8 install powerline to make status line beautiful
 sudo cp -r ./vim-powerline ~/.vim/bundle/
 
-#step 9 try to install youcompleteme
+#step 9 install youcompleteme
+#step 10 install syntastic
+sudo cp -r ./syntastic ~/.vim/bundle
