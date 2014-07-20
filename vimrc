@@ -1,3 +1,4 @@
+set noswapfile
 nmap <F1> :echo 'Current time is ' . strftime('%c')<CR>
 nmap <F2> :NERDTreeToggle<CR>
 nmap <F3> :TagbarToggle<CR>
