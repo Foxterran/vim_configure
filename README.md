@@ -23,3 +23,4 @@ that will be all
 5. fold just set fdm to marker  then use the cmd zf% to create a fold  za to revert
 6. install pathogen  load the pathogen.vim into ~/.vim/autoload  mkdir autoload and bundle under ~/.vim/ add execute pathogen#infect() into vimrc
 7. install nerdtree to view directory cd ~/.vim/bundle run git clone https://github.com/scrooloose/nerdtree.git  ctrl+w+l  /   ctrl+w+h
+8. after install syntastic you should install corresponding code checker as to python , pylint is an option
