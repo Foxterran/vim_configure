@@ -40,8 +40,8 @@ sudo make install
 cd ..
 sudo cp -r ./tagbar ~/.vim/bundle/
 
-#step 8 install powerline to make status line beautiful
-sudo cp -r ./vim-powerline ~/.vim/bundle/
+#step 8 install airline to make status line beautiful
+sudo cp -r ./vim-airline ~/.vim/bundle/
 
 #step 9 install youcompleteme
 #step 10 install syntastic
