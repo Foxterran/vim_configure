@@ -3,6 +3,9 @@ nmap <F1> :echo 'Current time is ' . strftime('%c')<CR>
 nmap <F2> :NERDTreeToggle<CR>
 nmap <F3> :TagbarToggle<CR>
 nmap <F4> :tabnext<CR>
+nmap <F5> :w<CR>
+nmap <F6> :tabnew<CR>
+nmap <F8> :q<CR>
 syntax on
 "文件缩进 
 filetype indent plugin on
@@ -17,7 +20,8 @@ set nobackup
 set fdm=marker
 set background=dark
 colorscheme monokai
-
+set hlsearch
+hi Search ctermbg=LightYellow guibg=LightBlue 
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
