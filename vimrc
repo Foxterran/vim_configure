@@ -6,6 +6,7 @@ nmap <F4> :tabnext<CR>
 nmap <F5> :w<CR>
 nmap <F6> :tabnew<CR>
 nmap <F8> :q<CR>
+nmap <F9> :nohl<CR>
 syntax on
 "文件缩进 
 filetype indent plugin on
@@ -21,7 +22,7 @@ set fdm=marker
 set background=dark
 colorscheme monokai
 set hlsearch
-hi Search ctermbg=LightYellow guibg=LightBlue 
+hi Search ctermbg=darkred guibg=LightBlue 
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
