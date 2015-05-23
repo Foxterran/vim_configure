@@ -12,6 +12,7 @@ syntax on
 filetype indent plugin on
 "pathogen
 execute pathogen#infect()
+let g:NERDTreeDirArrows=0
 set number
 set ruler
 set showcmd
